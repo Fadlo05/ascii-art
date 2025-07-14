@@ -18,5 +18,6 @@ func main() {
 		fmt.Println("empy string")
 		return
 	}
-	functions.ReadAsciiBanner("standard.txt")
+	asciiMap := functions.ReadAsciiBanner("standard.txt")
+	functions.AsciiRepresentation(input, asciiMap)
 }
