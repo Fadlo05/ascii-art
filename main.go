@@ -15,7 +15,7 @@ func main() {
 	}
 	input := args[0]
 	if len(input) == 0 {
-		fmt.Println("empy string")
+		fmt.Println("empty string")
 		return
 	}
 	asciiMap := functions.ReadAsciiBanner("standard.txt")
